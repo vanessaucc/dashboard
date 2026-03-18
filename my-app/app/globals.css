@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --green-primary: oklch(0.448 0.119 151.328);
+  --green-light: oklch(0.925 0.084 155.995);
+  --bg-main: oklch(0.928 0.006 264.531);
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+  --white: #ffffff;
+  --border: #e2e8f0;
+  --card-bg: #ffffff;
+  --green-badge: #dcfce7;
+  --green-badge-text: #16a34a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-main);
+  color: var(--text-primary);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: oklch(0.7 0.05 155.995);
+  border-radius: 4px;
+}
